@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G. Fried Flooring & Design | Flooring Near Me Paramus NJ</title>
+    <meta name="description" content="Looking for top-rated Flooring Near Me? G. Fried Flooring & Design offers premium hardwood flooring, carpet store & installation, vinyl, laminate, carpet cleaning, and refinishing in Paramus, NJ. Call 201-967-1250 today!">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fbf8f3',
+                            100: '#f5edd8',
+                            200: '#ebdaaf',
+                            600: '#9e7323',
+                            700: '#7e5a1b',
+                            800: '#64471b',
+                            900: '#4d3718',
+                        },
+                        dark: {
+                            800: '#1e2022',
+                            900: '#121315',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .map-responsive iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 380px;
+            border-radius: 1rem;
+        }
+        .hero-overlay {
+            background: linear-gradient(135deg, rgba(18, 19, 21, 0.88) 0%, rgba(30, 32, 34, 0.75) 100%);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 bg-slate-50 antialiased selection:bg-brand-600 selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-dark-900 text-gray-300 text-xs sm:text-sm py-2 px-4 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-brand-600"></i> 495 NJ-17, Paramus, NJ 07652</span>
+                <span class="hidden md:inline-flex items-center gap-1.5"><i class="fa-solid fa-clock text-brand-600"></i> Mon-Sat: Showroom Open</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:2019671250" class="hover:text-amber-400 transition font-semibold flex items-center gap-1.5 text-white">
+                    <i class="fa-solid fa-phone text-brand-600"></i> 201-967-1250
+                </a>
+                <a href="https://maps.app.goo.gl/MsXXDjCdypi6JBCT8" target="_blank" rel="noopener noreferrer" class="hover:text-amber-400 transition flex items-center gap-1 text-xs">
+                    <i class="fa-solid fa-map-location-dot text-brand-600"></i> Google Maps
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <a href="https://www.gfriedcarpet.net/" class="flex items-center gap-3">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCx0C1K2L5jLwM0hwLJG9Exi8VD0ZCbZ8hGoXWEK596klycOALd06FXMAxrKb2UoEL9h_EVMqymCPp378ENPOJ4HsR4wjjQkqzsQtNX3D5q1cDlXofFRKP9FnMpRrqCIHMEmTU7zlYRYr9pYwIrj7664Zt8U94D3qWwIdfLhIbbPReH4aJfwrCWzqreg/s245/G.%20Fried%20Flooring%20&%20Design.jpg" 
+                         alt="G. Fried Flooring & Design Logo" 
+                         class="h-14 w-auto object-contain rounded-md"
+                         onerror="this.onerror=null; this.src='https://placehold.co/245x80/121315/ffffff?text=G.+Fried+Flooring';">
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-8 font-medium text-gray-700">
+                    <a href="#about" class="hover:text-brand-600 transition">About Us</a>
+                    <a href="#services" class="hover:text-brand-600 transition">Services</a>
+                    <a href="#why-choose-us" class="hover:text-brand-600 transition">Why Us</a>
+                    <a href="#faqs" class="hover:text-brand-600 transition">FAQs</a>
+                    <a href="#contact" class="hover:text-brand-600 transition">Contact</a>
+                </nav>
+
+                <!-- Call to Action Button -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="tel:2019671250" class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-lg font-semibold shadow-md shadow-amber-900/10 hover:shadow-lg transition flex items-center gap-2">
+                        <i class="fa-solid fa-phone"></i> Call Now
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="p-2 rounded-md text-gray-700 hover:text-brand-600 focus:outline-none" aria-label="Toggle Navigation">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Container -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-6 space-y-3">
+            <a href="#about" class="block py-2 text-gray-700 hover:text-brand-600 font-medium">About Us</a>
+            <a href="#services" class="block py-2 text-gray-700 hover:text-brand-600 font-medium">Our Services</a>
+            <a href="#why-choose-us" class="block py-2 text-gray-700 hover:text-brand-600 font-medium">Why Choose Us</a>
+            <a href="#faqs" class="block py-2 text-gray-700 hover:text-brand-600 font-medium">FAQs</a>
+            <a href="#contact" class="block py-2 text-gray-700 hover:text-brand-600 font-medium">Contact & Map</a>
+            <a href="tel:2019671250" class="w-full text-center bg-brand-600 text-white py-3 rounded-lg font-semibold block shadow">Call 201-967-1250</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-dark-900 text-white min-h-[580px] flex items-center py-16 lg:py-24">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0 overflow-hidden">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoozPeuBGPTa_mcl9K_LJRmfVN-utKv6mfJOiUl8fnY-oS0gayjF6PEyMgDepYkayOKVptKp6mqRl8AvaEZGDsjKigllYPTfTXG2GnzG2lXSDwCRSEzlrBgTA0U0YxWPRHJbcmEWM_uTmQFDnSiBSfQss-MJ36CBG64BOK3_xMAk6tMfkF7EumMWH3CQ/s310/Hardwood%20Flooring%20Paramus,%20NJ.jpg" 
+                 alt="Hardwood Flooring Paramus, NJ" 
+                 class="w-full h-full object-cover filter brightness-50"
+                 onerror="this.onerror=null; this.src='https://placehold.co/1200x800/1e2022/ffffff?text=Hardwood+Flooring+Paramus+NJ';">
+            <div class="absolute inset-0 hero-overlay"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-brand-600/30 border border-brand-600/50 text-amber-300 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full uppercase tracking-wider backdrop-blur-sm">
+                        <i class="fa-solid fa-star text-amber-400"></i> Premier Flooring Contractor Paramus, NJ
+                    </div>
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                        Top-Rated <span class="text-amber-400">Flooring Near Me</span> in Paramus & Bergen County
+                    </h1>
+                    <p class="text-gray-300 text-base sm:text-lg max-w-2xl leading-relaxed">
+                        Looking for a trusted <strong>Flooring Company Near Me</strong>? <strong>G. Fried Flooring & Design</strong> provides luxury hardwood flooring, high-quality carpet installation, durable vinyl, laminate flooring, and specialized floor refinishing & cleaning services designed to transform your space.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="#contact" class="bg-brand-600 hover:bg-brand-700 text-white text-center font-bold px-7 py-4 rounded-xl shadow-lg transition flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-calendar-check"></i> Request Free Estimate
+                        </a>
+                        <a href="tel:2019671250" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 text-center font-semibold px-7 py-4 rounded-xl backdrop-blur-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-phone text-amber-400"></i> Call 201-967-1250
+                        </a>
+                    </div>
+                    <div class="pt-6 grid grid-cols-3 gap-4 border-t border-gray-800 text-center sm:text-left">
+                        <div>
+                            <span class="block text-xl sm:text-2xl font-bold text-amber-400">40+</span>
+                            <span class="text-xs text-gray-400">Years Excellence</span>
+                        </div>
+                        <div>
+                            <span class="block text-xl sm:text-2xl font-bold text-amber-400">100%</span>
+                            <span class="text-xs text-gray-400">Satisfaction Focus</span>
+                        </div>
+                        <div>
+                            <span class="block text-xl sm:text-2xl font-bold text-amber-400">Paramus</span>
+                            <span class="text-xs text-gray-400">Local Showroom</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Consultation Card -->
+                <div class="lg:col-span-5 bg-white text-gray-900 rounded-2xl p-6 sm:p-8 shadow-2xl border border-gray-100">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">Get a Free Quote</h3>
+                    <p class="text-sm text-gray-600 mb-6">Contact our team of experts today to discuss your residential or commercial project.</p>
+                    <form onsubmit="event.preventDefault(); document.getElementById('form-status').classList.remove('hidden');" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Full Name</label>
+                            <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 focus:outline-none text-sm">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Phone Number</label>
+                            <input type="tel" required placeholder="201-000-0000" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 focus:outline-none text-sm">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Service Needed</label>
+                            <select class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-600 focus:outline-none text-sm bg-white">
+                                <option>Hardwood Flooring Paramus, NJ</option>
+                                <option>Carpet Installation Paramus, NJ</option>
+                                <option>Hardwood Floor Refinishing Paramus, NJ</option>
+                                <option>Vinyl Flooring Paramus, NJ</option>
+                                <option>Laminate Flooring Paramus, NJ</option>
+                                <option>Carpet Cleaning Paramus, NJ</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-3.5 rounded-lg transition shadow-md">
+                            Submit Quote Request
+                        </button>
+                    </form>
+                    <div id="form-status" class="hidden mt-4 p-3 bg-green-50 border border-green-200 text-green-700 text-xs text-center rounded-lg">
+                        Thank you! We have received your request and will contact you shortly.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="text-brand-600 font-bold text-sm tracking-wider uppercase">Welcome To G. Fried Flooring & Design</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+                        Your Trusted Local <span class="text-brand-600">Flooring Contractor</span> in Paramus, NJ
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        At <strong>G. Fried Flooring & Design</strong>, we pride ourselves on being the leading choice for homeowners and businesses searching for top-caliber <strong>Flooring Near Me</strong>. Located right on Route 17 in Paramus, New Jersey, our showroom features an extensive, curated selection of flooring materials to suit every style, functional requirement, and budget.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        Whether you are looking for an upscale <strong>Carpet Store Paramus, NJ</strong> residents depend on, or require seamless <strong>Carpet Installation Paramus, NJ</strong>, our team brings exceptional craftsmanship and attentive customer service to every job. From stunning solid <strong>Hardwood Flooring Paramus, NJ</strong> to budget-friendly <strong>Laminate Flooring Paramus, NJ</strong> and water-resistant <strong>Vinyl Flooring Paramus, NJ</strong>, we provide complete, hassle-free solutions from design selection to final installation.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-amber-100 text-brand-600 rounded-lg"><i class="fa-solid fa-circle-check text-lg"></i></div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm">Full-Service Showroom</h4>
+                                <p class="text-xs text-gray-500">Explore thousands of carpets, woods, and vinyl samples.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <div class="p-2 bg-amber-100 text-brand-600 rounded-lg"><i class="fa-solid fa-circle-check text-lg"></i></div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm">Certified Installers</h4>
+                                <p class="text-xs text-gray-500">Professional, prompt, and precise craftsmanship.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoozPeuBGPTa_mcl9K_LJRmfVN-utKv6mfJOiUl8fnY-oS0gayjF6PEyMgDepYkayOKVptKp6mqRl8AvaEZGDsjKigllYPTfTXG2GnzG2lXSDwCRSEzlrBgTA0U0YxWPRHJbcmEWM_uTmQFDnSiBSfQss-MJ36CBG64BOK3_xMAk6tMfkF7EumMWH3CQ/s310/Hardwood%20Flooring%20Paramus,%20NJ.jpg" 
+                             alt="G. Fried Flooring Showcase" 
+                             class="w-full h-[400px] object-cover"
+                             onerror="this.onerror=null; this.src='https://placehold.co/600x400/f5edd8/64471b?text=G.+Fried+Flooring+Showcase';">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 bg-brand-600 text-white p-6 rounded-2xl shadow-xl hidden sm:block">
+                        <p class="text-2xl font-black">201-967-1250</p>
+                        <p class="text-xs uppercase tracking-wider opacity-90">Call For Direct Showroom Advice</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="py-16 lg:py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-600 font-bold text-sm uppercase tracking-wider">Complete Flooring Solutions</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                    Our Premium Flooring Services
+                </h2>
+                <p class="text-gray-600 mt-4">
+                    As a premier <strong>Flooring Company Near Me</strong>, we offer a complete suite of services tailored to meet all residential and commercial design preferences.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1: Hardwood Flooring -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition border border-gray-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-amber-50 text-brand-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
+                            <i class="fa-solid fa-tree"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Hardwood Flooring Paramus, NJ</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Enhance your interior elegance with solid and engineered hardwood flooring. We offer classic oak, maple, walnut, and modern wide-plank options built for longevity and unmatched beauty.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brand-600 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 2: Carpet Store & Installation -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition border border-gray-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-amber-50 text-brand-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
+                            <i class="fa-solid fa-rug"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Carpet Store & Carpet Installation Paramus, NJ</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Visit our full-service <strong>Carpet Store Paramus, NJ</strong> to explore plush, pattern, loop, and stain-resistant carpets. Our expert team ensures seamless, flawless <strong>Carpet Installation Paramus, NJ</strong>.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brand-600 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 3: Hardwood Floor Refinishing -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition border border-gray-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-amber-50 text-brand-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Hardwood Floor Refinishing Paramus, NJ</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Breathe new life into dull, scratched wood floors with professional <strong>Hardwood Floor Refinishing Paramus, NJ</strong>. We sand, stain, and seal your floors for a brand-new showroom finish.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brand-600 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 4: Vinyl Flooring -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition border border-gray-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-amber-50 text-brand-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Vinyl Flooring Paramus, NJ</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Discover stylish Luxury Vinyl Plank (LVP) and Luxury Vinyl Tile (LVT) with superior <strong>Vinyl Flooring Paramus, NJ</strong> solutions. Perfect for moisture-prone areas like kitchens and bathrooms.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brand-600 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 5: Laminate Flooring -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition border border-gray-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-amber-50 text-brand-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
+                            <i class="fa-solid fa-border-all"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Laminate Flooring Paramus, NJ</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Enjoy the authentic aesthetic of hardwood or stone at a budget-friendly price point with modern <strong>Laminate Flooring Paramus, NJ</strong>. Durable, scratch-resistant, and low-maintenance.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brand-600 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Service 6: Carpet Cleaning -->
+                <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-xl transition border border-gray-200/80 flex flex-col justify-between group">
+                    <div>
+                        <div class="w-14 h-14 bg-amber-50 text-brand-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition">
+                            <i class="fa-solid fa-soap"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Carpet Cleaning Paramus, NJ</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Keep your carpets fresh, hygienic, and vibrant with deep-cleaning services for <strong>Carpet Cleaning Paramus, NJ</strong>. We remove stubborn stains, allergens, and odors efficiently.
+                        </p>
+                    </div>
+                    <a href="#contact" class="text-brand-600 font-bold text-sm flex items-center gap-2 group-hover:translate-x-1 transition">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose G. Fried Flooring & Design -->
+    <section id="why-choose-us" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="text-brand-600 font-bold text-sm uppercase tracking-wider">The G. Fried Difference</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight">
+                        Why Choose G. Fried Flooring & Design?
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        When searching for a reliable <strong>Flooring Contractor Paramus, NJ</strong>, experience and reputation matter. For decades, G. Fried Flooring & Design has built a stellar track record based on quality products, transparent pricing, and personalized design consultation.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                            <div class="p-3 bg-brand-600 text-white rounded-lg"><i class="fa-solid fa-gem text-lg"></i></div>
+                            <div>
+                                <h3 class="font-bold text-gray-900">Premium Material Selection</h3>
+                                <p class="text-sm text-gray-600 mt-1">We source high-grade materials from industry-leading manufacturers, ensuring top durability and aesthetic appeal.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                            <div class="p-3 bg-brand-600 text-white rounded-lg"><i class="fa-solid fa-user-gear text-lg"></i></div>
+                            <div>
+                                <h3 class="font-bold text-gray-900">Expert Design Guidance</h3>
+                                <p class="text-sm text-gray-600 mt-1">Our knowledgeable specialists guide you through colors, textures, and installation steps to match your aesthetic.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100">
+                            <div class="p-3 bg-brand-600 text-white rounded-lg"><i class="fa-solid fa-handshake-angle text-lg"></i></div>
+                            <div>
+                                <h3 class="font-bold text-gray-900">Transparent & Honest Pricing</h3>
+                                <p class="text-sm text-gray-600 mt-1">No hidden fees or unexpected charges. We deliver clear estimates upfront for all flooring projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-6 bg-dark-900 text-white p-8 sm:p-12 rounded-3xl relative overflow-hidden shadow-2xl">
+                    <div class="relative z-10 space-y-6">
+                        <span class="inline-block bg-brand-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Local Experts</span>
+                        <h3 class="text-2xl sm:text-3xl font-extrabold">Ready to Upgrade Your Floors?</h3>
+                        <p class="text-gray-300 text-sm leading-relaxed">
+                            Whether you need new <strong>Hardwood Flooring Paramus, NJ</strong>, professional <strong>Carpet Cleaning Paramus, NJ</strong>, or durable <strong>Vinyl Flooring Paramus, NJ</strong>, we are here to assist. Visit our Paramus showroom today or call to schedule an in-home measurement!
+                        </p>
+                        
+                        <div class="p-4 bg-gray-800/80 rounded-xl border border-gray-700 space-y-3">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-location-dot text-brand-600 text-lg"></i>
+                                <span class="text-sm text-gray-200">495 NJ-17, Paramus, NJ 07652</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-phone text-brand-600 text-lg"></i>
+                                <span class="text-sm text-gray-200">201-967-1250</span>
+                            </div>
+                        </div>
+
+                        <a href="tel:2019671250" class="inline-flex items-center justify-center gap-2 w-full bg-brand-600 hover:bg-brand-700 text-white font-bold py-4 rounded-xl transition">
+                            <i class="fa-solid fa-phone"></i> Call 201-967-1250 Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faqs" class="py-16 lg:py-24 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="text-brand-600 font-bold text-sm uppercase tracking-wider">Frequently Asked Questions</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                    Got Questions? We Have Answers
+                </h2>
+                <p class="text-gray-600 mt-2 text-sm">Find quick answers regarding our flooring products, installation, and refinishing services.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                    <button onclick="toggleFaq(1)" class="w-full text-left px-6 py-5 flex justify-between items-center font-bold text-gray-900 text-base sm:text-lg focus:outline-none">
+                        <span>How do I choose the best Flooring Near Me in Paramus, NJ?</span>
+                        <i id="faq-icon-1" class="fa-solid fa-chevron-down text-brand-600 transition-transform"></i>
+                    </button>
+                    <div id="faq-content-1" class="hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        Choosing the right <strong>Flooring Near Me</strong> depends on your foot traffic, moisture levels, and design preference. For living rooms, <strong>Hardwood Flooring Paramus, NJ</strong> offers timeless beauty. For moisture-prone kitchens or basements, <strong>Vinyl Flooring Paramus, NJ</strong> or <strong>Laminate Flooring Paramus, NJ</strong> are ideal. Visit <strong>G. Fried Flooring & Design</strong> in Paramus to explore samples in person!
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                    <button onclick="toggleFaq(2)" class="w-full text-left px-6 py-5 flex justify-between items-center font-bold text-gray-900 text-base sm:text-lg focus:outline-none">
+                        <span>What services are offered at your Carpet Store Paramus, NJ?</span>
+                        <i id="faq-icon-2" class="fa-solid fa-chevron-down text-brand-600 transition-transform"></i>
+                    </button>
+                    <div id="faq-content-2" class="hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        As a top-tier <strong>Carpet Store Paramus, NJ</strong>, G. Fried Flooring & Design provides a vast selection of plush, loop, patterned, and stain-resistant carpets. We also provide professional <strong>Carpet Installation Paramus, NJ</strong> along with restorative <strong>Carpet Cleaning Paramus, NJ</strong> to maintain carpet longevity.
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                    <button onclick="toggleFaq(3)" class="w-full text-left px-6 py-5 flex justify-between items-center font-bold text-gray-900 text-base sm:text-lg focus:outline-none">
+                        <span>Can old hardwood floors be saved with refinishing?</span>
+                        <i id="faq-icon-3" class="fa-solid fa-chevron-down text-brand-600 transition-transform"></i>
+                    </button>
+                    <div id="faq-content-3" class="hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        Yes! With specialized <strong>Hardwood Floor Refinishing Paramus, NJ</strong>, worn or scratched solid hardwood floors can be restored to look new. As an experienced <strong>Flooring Contractor Paramus, NJ</strong>, we sand away surface imperfections, apply new custom stains, and add protective sealants.
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                    <button onclick="toggleFaq(4)" class="w-full text-left px-6 py-5 flex justify-between items-center font-bold text-gray-900 text-base sm:text-lg focus:outline-none">
+                        <span>Why should I choose a local Flooring Company Near Me?</span>
+                        <i id="faq-icon-4" class="fa-solid fa-chevron-down text-brand-600 transition-transform"></i>
+                    </button>
+                    <div id="faq-content-4" class="hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        Working with a local <strong>Flooring Company Near Me</strong> like G. Fried Flooring & Design ensures personalized attention, faster installation times, and reliable local customer support. Our Paramus showroom lets you examine materials upfront before making a decision.
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+                    <button onclick="toggleFaq(5)" class="w-full text-left px-6 py-5 flex justify-between items-center font-bold text-gray-900 text-base sm:text-lg focus:outline-none">
+                        <span>What is the difference between vinyl and laminate flooring?</span>
+                        <i id="faq-icon-5" class="fa-solid fa-chevron-down text-brand-600 transition-transform"></i>
+                    </button>
+                    <div id="faq-content-5" class="hidden px-6 pb-5 text-gray-600 text-sm leading-relaxed border-t border-gray-100 pt-4">
+                        <strong>Vinyl Flooring Paramus, NJ</strong> is composed of synthetic materials making it 100% waterproof and highly resistant to moisture. <strong>Laminate Flooring Paramus, NJ</strong> features a dense wood fiber core that provides realistic wood feel and scratch resistance. Both options are durable, cost-effective, and low-maintenance.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information & Map Section -->
+    <section id="contact" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-brand-600 font-bold text-sm uppercase tracking-wider">Get In Touch</span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2">
+                    Contact G. Fried Flooring & Design
+                </h2>
+                <p class="text-gray-600 mt-2">Visit our Paramus showroom or reach out directly to schedule a project consultation.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+                <!-- Info Cards -->
+                <div class="lg:col-span-5 space-y-6 flex flex-col justify-between">
+                    <div class="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200 space-y-6">
+                        <h3 class="text-xl font-bold text-gray-900 border-b border-slate-200 pb-3">Contact Details</h3>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-brand-600 text-white rounded-xl flex items-center justify-center text-lg flex-shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Address</h4>
+                                <p class="text-sm text-gray-600 mt-0.5">495 NJ-17, Paramus, NJ 07652, United States</p>
+                                <a href="https://maps.app.goo.gl/MsXXDjCdypi6JBCT8" target="_blank" rel="noopener noreferrer" class="inline-block mt-2 text-xs font-bold text-brand-600 hover:underline">
+                                    Open Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-brand-600 text-white rounded-xl flex items-center justify-center text-lg flex-shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Phone</h4>
+                                <p class="text-sm text-gray-600 mt-0.5">201-967-1250</p>
+                                <a href="tel:2019671250" class="inline-block mt-2 text-xs font-bold text-brand-600 hover:underline">
+                                    Call Now <i class="fa-solid fa-phone"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-brand-600 text-white rounded-xl flex items-center justify-center text-lg flex-shrink-0">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Website</h4>
+                                <a href="https://www.gfriedcarpet.net/" target="_blank" rel="noopener noreferrer" class="text-sm text-brand-600 font-semibold hover:underline mt-0.5 block break-all">
+                                    https://www.gfriedcarpet.net/
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-amber-50 border border-amber-200 p-6 rounded-2xl">
+                        <div class="flex items-center gap-3 text-amber-900 font-bold mb-2">
+                            <i class="fa-solid fa-store text-brand-600"></i> Showroom Hours
+                        </div>
+                        <p class="text-xs text-amber-800 leading-relaxed">
+                            Stop by our Paramus location to speak directly with our interior flooring specialists and view our live samples.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Google Map Embed -->
+                <div class="lg:col-span-7 bg-slate-100 rounded-2xl overflow-hidden p-2 border border-slate-200 shadow-inner flex flex-col">
+                    <div class="map-responsive w-full h-full min-h-[400px]">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3013.233679563521!2d-74.0741188!3d40.95445939999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2fad9d02985ad%3A0x33db26668ef2e60d!2sG.%20Fried%20Flooring%20%26%20Design!5e0!3m2!1sen!2s!4v1790942996581!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tag Cloud / Keyword Searches Section -->
+    <section class="py-12 bg-slate-100 border-t border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h4 class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-6">Popular Local Searches</h4>
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-3">
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Flooring Near Me</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Flooring Company Near Me</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Carpet Cleaning Paramus, NJ</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Hardwood Flooring Paramus, NJ</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Carpet Store Paramus, NJ</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Hardwood Floor Refinishing Paramus, NJ</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Carpet Installation Paramus, NJ</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Vinyl Flooring Paramus, NJ</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Flooring Contractor Paramus, NJ</span>
+                <span class="bg-white text-gray-700 text-xs sm:text-sm font-semibold px-4 py-2 rounded-full shadow-sm border border-gray-200 hover:border-brand-600 transition cursor-default">Laminate Flooring Paramus, NJ</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark-900 text-gray-400 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-12 border-b border-gray-800">
+                <div class="md:col-span-2 space-y-4">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCx0C1K2L5jLwM0hwLJG9Exi8VD0ZCbZ8hGoXWEK596klycOALd06FXMAxrKb2UoEL9h_EVMqymCPp378ENPOJ4HsR4wjjQkqzsQtNX3D5q1cDlXofFRKP9FnMpRrqCIHMEmTU7zlYRYr9pYwIrj7664Zt8U94D3qWwIdfLhIbbPReH4aJfwrCWzqreg/s245/G.%20Fried%20Flooring%20&%20Design.jpg" 
+                         alt="G. Fried Flooring & Design" 
+                         class="h-12 w-auto bg-white p-1 rounded"
+                         onerror="this.onerror=null; this.src='https://placehold.co/200x60/ffffff/121315?text=G.+Fried+Flooring';">
+                    <p class="text-sm text-gray-400 max-w-sm">
+                        G. Fried Flooring & Design is Paramus’s premier destination for luxury carpet, hardwood, vinyl, and laminate flooring solutions.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#about" class="hover:text-amber-400 transition">About Us</a></li>
+                        <li><a href="#services" class="hover:text-amber-400 transition">Our Services</a></li>
+                        <li><a href="#why-choose-us" class="hover:text-amber-400 transition">Why Choose Us</a></li>
+                        <li><a href="#faqs" class="hover:text-amber-400 transition">FAQs</a></li>
+                        <li><a href="#contact" class="hover:text-amber-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-sm uppercase tracking-wider mb-4">Get In Touch</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-brand-600"></i> 201-967-1250</li>
+                        <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot text-brand-600 mt-1"></i> 495 NJ-17, Paramus, NJ 07652</li>
+                        <li class="pt-2">
+                            <a href="https://maps.app.goo.gl/MsXXDjCdypi6JBCT8" target="_blank" rel="noopener noreferrer" class="text-xs bg-brand-600 text-white px-3 py-1.5 rounded inline-flex items-center gap-1.5 hover:bg-brand-700 transition">
+                                <i class="fa-solid fa-map"></i> View GMB Profile
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-gray-500 gap-4">
+                <p>&copy; <span id="year"></span> G. Fried Flooring & Design. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="https://www.gfriedcarpet.net/" target="_blank" rel="noopener noreferrer" class="hover:text-gray-400 transition">Official Website</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Set dynamic year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle Logic
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Toggle Accordion FAQs
+        function toggleFaq(id) {
+            const content = document.getElementById(`faq-content-${id}`);
+            const icon = document.getElementById(`faq-icon-${id}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                content.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+    </script>
+</body>
+</html>
